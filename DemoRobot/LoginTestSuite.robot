@@ -12,6 +12,7 @@ LoginTest
     Click Element    id=welcome  
     Set Browser Implicit Wait    5
     Click Element    link=Logout   
+    Log    Ceci est un simple test    
     Log   Ceci est un test execute par %{username} dans %{os}   
     Log    Fin de test
     
